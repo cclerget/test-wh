@@ -1,5 +1,5 @@
 FROM busybox
 
 RUN mkdir /testing
-RUN cd /testing
+WORKDIR /testing
 RUN touch file
