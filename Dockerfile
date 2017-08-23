@@ -1,4 +1,4 @@
 FROM busybox
 
-RUN mkdir /testing
-RUN rm -rf /testing
+RUN mkdir -p /testing/level1
+RUN rm -rf /testing/level1
