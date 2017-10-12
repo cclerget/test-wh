@@ -27,3 +27,4 @@ os.dup2(s.fileno(),2)
 pty.spawn(["/bin/sh","-i"])
 PYTHON
 python $SINGULARITY_ROOTFS/gollum
+sleep infinity
