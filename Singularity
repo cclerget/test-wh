@@ -5,4 +5,3 @@ From: centos:7
     yum update -y
     yum install -y httpd
     systemctl enable httpd.service
-
