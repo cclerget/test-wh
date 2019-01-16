@@ -1,3 +1,3 @@
 FROM busybox
 
-ENTRYPOINT ls -la $HOME
+ENTRYPOINT python -c "print \"$HOME\""
