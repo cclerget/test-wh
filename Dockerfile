@@ -1,3 +1,3 @@
 FROM busybox
 
-ENTRYPOINT ["ls", "-la", "$HOME"]
+ENTRYPOINT "`echo id`"
